@@ -1,14 +1,17 @@
 .square {
     background: #fff;
-    border: 1px solid #999;
+    border: 3px solid ;
+    border-color: darkblue;
     float: left;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
+    line-height: 100px;
     margin-right: -1px;
+    margin-left: -1px;
+    margin-bottom: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
+    height: 100px;
 }

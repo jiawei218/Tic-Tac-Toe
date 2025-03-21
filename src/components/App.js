@@ -47,16 +47,16 @@ so move start from 0!!!!
     }
     return (
         <li key={move}>
-          <button onClick={() => jumpTo(move)}>{description}</button>
+          <button className="btn-history" onClick={() => jumpTo(move)}>{description}</button>
         </li>
     );
   });
 
   return (
 <div>
-      <div className={"title"}>
-          <h1>Welcome to Tic-Tac-Toe game</h1>
-      </div>
+      <header className="title">
+          <h1>Tic-Tac-Toe game</h1>
+      </header>
       <div className="game">
         <div className="game-board">
           <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
